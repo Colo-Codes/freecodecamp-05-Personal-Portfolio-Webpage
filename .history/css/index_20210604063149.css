@@ -255,6 +255,7 @@ a:link {
     width: 50rem;
     display: flex;
     margin: auto;
+    border: 1px dashed red;
     justify-content: space-around;
 }
 
@@ -275,20 +276,8 @@ a:link {
 .contact-networks-col a {
     font-size: 1.5rem;
     color: #4477E3;
-    display: flex;
-    align-items: center;
-    padding: 1rem;
-}
-
-.contact-networks-col a:hover, .contact-networks-col a:active {
-    color: white;
-    background-color: #4477E3;   
-}
-.contact-networks-col a:hover img, .contact-networks-col a:active img {
-    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(26deg) brightness(100%) contrast(150%);;
 }
 
 .contact-networks-col img {
-    margin-right: 1rem;
-    filter: invert(37%) sepia(98%) saturate(969%) hue-rotate(201deg) brightness(94%) contrast(89%);
+    margin: 2rem 1rem 0 0;
 }
