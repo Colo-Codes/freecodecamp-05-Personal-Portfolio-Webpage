@@ -36,12 +36,10 @@ a:link {
     transform: skewY(5deg) translateY(-10rem);
     position: fixed;
     z-index: 4;
-
 }
 #navbar-container {
     max-width: 90rem;
     margin: auto;
-
 }
 
 #navbar-flex-container {
@@ -60,14 +58,9 @@ a:link {
     font-size: 1.125rem;
     text-transform: uppercase;
     color: white;
-
 }
 
 /* Hero */
-
-#welcome-section {
-    height: 200vh;
-}
 
 #welcome-section-container {
     /* 1440px = 90rem */
@@ -75,7 +68,7 @@ a:link {
     height: 40rem;
     margin: auto;
     position: relative;
-
+    height: 100vh;
 }
 
 #hero-text-container h1 {
@@ -120,13 +113,12 @@ a:link {
     background: linear-gradient(to left, #44CBE3, #57B5FA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     /* 1rem = 16px -> 60.31rem = 865px + 100px */
     /* height: 60.31rem; */
-    height: 100vh;
+    /* height: 100vh; */
     width: 100%;
     transform: skewY(-10deg) translateY( -54.06rem );
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
     position: relative;
     z-index: 2;
-
 }
 
 #bottom-layer {
@@ -139,7 +131,6 @@ a:link {
     transform: skewY(5deg) translateY(-108.12rem); /* 54.06 * 2 */
     position: relative;
     z-index: 1;
-
 }
 
 #scroll-to-explore {
@@ -154,7 +145,6 @@ a:link {
     font-size: 1.125rem;
     color: white;
     font-weight: 300;
-
 }
 
 #scroll-to-explore > img {
@@ -166,8 +156,7 @@ a:link {
 
 #projects {
     max-width: 62.72rem;
-    /* margin: -145vh auto 0; */
-    margin: -100vh auto 0;
+    margin: -145vh auto 0;
     
 }
 

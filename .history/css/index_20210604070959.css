@@ -36,6 +36,7 @@ a:link {
     transform: skewY(5deg) translateY(-10rem);
     position: fixed;
     z-index: 4;
+    border: 5px dashed red;
 
 }
 #navbar-container {
@@ -65,17 +66,12 @@ a:link {
 
 /* Hero */
 
-#welcome-section {
-    height: 200vh;
-}
-
 #welcome-section-container {
     /* 1440px = 90rem */
     max-width: 90rem;
     height: 40rem;
     margin: auto;
     position: relative;
-
 }
 
 #hero-text-container h1 {

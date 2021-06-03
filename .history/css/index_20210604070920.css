@@ -36,12 +36,10 @@ a:link {
     transform: skewY(5deg) translateY(-10rem);
     position: fixed;
     z-index: 4;
-
 }
 #navbar-container {
     max-width: 90rem;
     margin: auto;
-
 }
 
 #navbar-flex-container {
@@ -60,14 +58,9 @@ a:link {
     font-size: 1.125rem;
     text-transform: uppercase;
     color: white;
-
 }
 
 /* Hero */
-
-#welcome-section {
-    height: 200vh;
-}
 
 #welcome-section-container {
     /* 1440px = 90rem */
@@ -75,7 +68,6 @@ a:link {
     height: 40rem;
     margin: auto;
     position: relative;
-
 }
 
 #hero-text-container h1 {
@@ -168,6 +160,7 @@ a:link {
     max-width: 62.72rem;
     /* margin: -145vh auto 0; */
     margin: -100vh auto 0;
+    border: 5px dashed red;
     
 }
 

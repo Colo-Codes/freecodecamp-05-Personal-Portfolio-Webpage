@@ -66,9 +66,10 @@ a:link {
 /* Hero */
 
 #welcome-section {
-    height: 200vh;
-}
 
+    height: 100vh;
+    border: 5px dashed red;
+}
 #welcome-section-container {
     /* 1440px = 90rem */
     max-width: 90rem;
