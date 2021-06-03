@@ -248,13 +248,9 @@ a:link {
 }
 
 #contact-networks {
-    width: 50rem;
-    display: flex;
+    width: 20rem;
+    column-count: 2;
+    column-gap: 5rem;
     margin: auto;
     border: 1px dashed red;
-}
-
-.contact-networks-col {
-    display: flex;
-    flex-direction: column;
 }

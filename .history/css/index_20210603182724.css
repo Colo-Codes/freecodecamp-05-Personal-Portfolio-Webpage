@@ -246,15 +246,3 @@ a:link {
     color: #4477E3;
     text-align: center;
 }
-
-#contact-networks {
-    width: 50rem;
-    display: flex;
-    margin: auto;
-    border: 1px dashed red;
-}
-
-.contact-networks-col {
-    display: flex;
-    flex-direction: column;
-}
