@@ -1,0 +1,89 @@
+/* @media */
+
+/* The height of the welcome section should be equal to the height of the viewport. */
+
+/* The navbar should always be at the top of the viewport. */
+
+/* Border-box and font-size */
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+/* Reset margins and set global values */
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+
+#navbar {
+    display: block;
+    background-color: #4477E3;
+    /* 1rem = 16px -> 18.75rem = 300px */
+    height: 18.75rem;
+    width: 100%;
+    transform: skewY(5deg) translateY(-10rem);
+    position: relative;
+    z-index: 3;
+}
+#navbar-flex-container {
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: space-around; */
+    height: 100%;
+    transform: skewY(-5deg) translateY(5rem);
+    z-index: 3;
+}
+.navbar-flex-item {
+    list-style: none;
+    margin: 6rem 0 0 5rem;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    color: white;
+}
+
+/* Hero */
+
+#hero-img {
+    border-radius: 50%;
+    width: 33.125rem;
+    height: 33.125rem;
+    border: 20px solid #4477E3;
+    background: url(../img/6D5BF231-2A3E-4029-9EFE-9C82AF0D506F_1_105_c.jpeg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: inset 0px 0px 25px 25px rgba(0, 0, 0, 0.5);
+    position: relative;
+    z-index: 4;
+}
+
+#top-layer {
+    background: #57B5FA;
+    /* 1rem = 16px -> 54.06rem = 865px */
+    height: 54.06rem;
+    width: 100%;
+    transform: skewY(-10deg) translateY(-22rem);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+    position: relative;
+    z-index: 2;
+}
+
+#bottom-layer {
+    background: #4477E3;
+    /* 1rem = 16px -> 54.06rem = 865px */
+    height: 54.06rem;
+    width: 100%;
+    transform: skewY(10deg) translateY(-42rem);
+    position: relative;
+    z-index: 1;
+}

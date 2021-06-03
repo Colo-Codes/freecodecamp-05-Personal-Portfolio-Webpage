@@ -1,0 +1,66 @@
+/* @media */
+
+/* The height of the welcome section should be equal to the height of the viewport. */
+
+/* The navbar should always be at the top of the viewport. */
+
+/* Border-box and font-size */
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+/* Reset margins and set global values */
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+
+#navbar {
+    display: block;
+    background-color: #4477E3;
+    /* 1rem = 16px -> 18.75rem = 300px */
+    height: 18.75rem;
+    width: 100%;
+    transform: skewY(5deg) translateY(-10rem);
+}
+#navbar-flex-container {
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: space-around; */
+    height: 100%;
+    transform: skewY(-5deg) translateY(5rem);
+
+}
+.navbar-flex-item {
+    list-style: none;
+    margin: 6rem 0 0 5rem;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    color: white;
+}
+
+/* Hero */
+
+#welcome-section {
+
+}
+#top-layer img::before {
+
+    box-shadow: inset 0px 0px 25px 25px rgba(0, 0, 0, 0.5);
+}
+
+#top-layer img {
+    border-radius: 50%;
+    max-width: 33.125rem;
+    border: 20px solid #4477E3;
+}

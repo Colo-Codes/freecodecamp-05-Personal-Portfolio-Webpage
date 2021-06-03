@@ -1,0 +1,42 @@
+/* @media */
+
+/* The height of the welcome section should be equal to the height of the viewport. */
+
+/* The navbar should always be at the top of the viewport. */
+
+/* Border-box and font-size */
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+/* Reset margins and set global values */
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+
+#navbar {
+}
+#navbar-flex-container {
+    display: flex;
+    background-color: #4477E3;
+    /* 1rem = 16px -> 18.75rem = 300px */
+    height: 18.75rem;
+    width: 100%;
+    transform: skewY(5deg) translateY(-10rem);
+}
+.navbar-flex-item {
+    list-style: none;
+    display: block;
+    margin-top: 15rem;
+    /* transform: translateY(-10rem); */
+
+}

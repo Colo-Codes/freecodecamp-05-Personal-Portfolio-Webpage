@@ -1,0 +1,20 @@
+/* @media */
+
+/* The height of the welcome section should be equal to the height of the viewport. */
+
+/* The navbar should always be at the top of the viewport. */
+
+/* Reset margins and set global values */
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+/* Navbar */
+#navbar {
+    background-color: #4477E3;
+    width: 100%;
+}
