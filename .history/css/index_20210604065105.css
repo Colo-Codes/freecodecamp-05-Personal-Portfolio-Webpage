@@ -296,27 +296,9 @@ a:link {
 
 footer {
     color: #4477E3;
-    padding-top: 3rem;
-    margin-bottom: 2rem;
-    text-align: center;
+    padding: 3rem 0 0 1rem;
 }
 
-footer a:link, footer a:visited {
-    color: #4477E3;
-    border-bottom: 1px dashed #4477E3;
-}
-
-footer a:hover, footer a:active, footer a:focus {
-    color: #57B5FA;
-    border-bottom: 1px dashed #57B5FA;
-}
-
-footer div {
-    font-size: .8rem;
-}
-
-footer p {
-    font-weight: 700;
-    font-style: italic;
-    margin-top: 1rem;
+footer a {
+    text-decoration: 1px dashed underline;
 }

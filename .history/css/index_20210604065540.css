@@ -301,18 +301,9 @@ footer {
     text-align: center;
 }
 
-footer a:link, footer a:visited {
-    color: #4477E3;
-    border-bottom: 1px dashed #4477E3;
-}
-
-footer a:hover, footer a:active, footer a:focus {
-    color: #57B5FA;
-    border-bottom: 1px dashed #57B5FA;
-}
-
-footer div {
-    font-size: .8rem;
+footer a:link {
+    text-decoration: underline dashed #4477E3;
+    border-bottom: 1px dashed red;
 }
 
 footer p {

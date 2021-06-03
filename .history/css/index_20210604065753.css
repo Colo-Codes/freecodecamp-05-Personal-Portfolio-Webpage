@@ -311,10 +311,6 @@ footer a:hover, footer a:active, footer a:focus {
     border-bottom: 1px dashed #57B5FA;
 }
 
-footer div {
-    font-size: .8rem;
-}
-
 footer p {
     font-weight: 700;
     font-style: italic;

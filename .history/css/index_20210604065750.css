@@ -307,12 +307,8 @@ footer a:link, footer a:visited {
 }
 
 footer a:hover, footer a:active, footer a:focus {
-    color: #57B5FA;
+    color: 57B5FA;
     border-bottom: 1px dashed #57B5FA;
-}
-
-footer div {
-    font-size: .8rem;
 }
 
 footer p {
