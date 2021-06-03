@@ -75,7 +75,19 @@ body {
     color: white;
 }
 
-#hero-text-container > p {
+#hero-text-container > p:last-of-type {
+    margin: 20rem 0 0 8rem;
+    font-size: 1.125rem;
+    color: white;
+    font-weight: 300;
+}
+
+#hero-text-container > img:last-of-type {
+    margin: 1rem 0 0 8rem;
+    filter: invert(1);
+}
+
+#hero-text-container > p:first-of-type {
     margin-left: 8rem;
     font-size: 2.25rem;
     color: white;
@@ -127,25 +139,6 @@ body {
     transform: skewY(5deg) translateY(-108.12rem); /* 54.06 * 2 */
     position: relative;
     z-index: 1;
-}
-
-#scroll-to-explore {
-    position: relative;
-    top: 90%;
-    margin-left: 90%;
-    transform: skewY(-5deg);
-
-}
-
-#scroll-to-explore > p {
-    font-size: 1.125rem;
-    color: white;
-    font-weight: 300;
-}
-
-#scroll-to-explore > img {
-    margin: .5rem 8rem 0 0;
-    filter: invert(1);
 }
 
 /* Projects */

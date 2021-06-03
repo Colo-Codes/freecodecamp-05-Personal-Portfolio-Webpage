@@ -138,6 +138,7 @@ body {
 }
 
 #scroll-to-explore > p {
+    /* margin: 20rem 0 0 8rem; */
     font-size: 1.125rem;
     color: white;
     font-weight: 300;
