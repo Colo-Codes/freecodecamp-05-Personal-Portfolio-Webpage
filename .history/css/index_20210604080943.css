@@ -83,6 +83,7 @@ a:link {
     height: 40rem;
     margin: auto;
     position: relative;
+
 }
 
 #hero-text-container h1 {
@@ -158,16 +159,15 @@ a:link {
 }
 
 #scroll-to-explore > p {
-    font-size: .8rem;
+    font-size: 1.125rem;
     color: white;
     font-weight: 300;
 
 }
 
 #scroll-to-explore > img {
-    margin-top: .5rem;
+    margin: .5rem 8rem 0 0;
     filter: invert(1);
-    height: 1rem;
 }
 
 /* Projects */
@@ -272,17 +272,23 @@ a:link {
 }
 
 #contact-networks {
-    max-width: 40rem;
+    width: 50rem;
     display: flex;
     margin: auto;
     justify-content: space-around;
-    flex-wrap: wrap;
 }
 
 .contact-networks-col {
     display: flex;
-    flex-direction: column;
-    margin: 0 2rem;
+    flex-direction: column;   
+}
+
+.contact-networks-col:first-of-type {
+    margin-left: 5rem;
+}
+
+.contact-networks-col:last-of-type {
+    margin-right: 5rem;
 }
 
 .contact-networks-col a {
@@ -333,93 +339,4 @@ footer p {
     font-weight: 700;
     font-style: italic;
     margin-top: 1rem;
-}
-
-/* Media queries */
-
-@media screen and (max-width: 1350px) {
-    #hero-text-container h1 {
-        padding-top: 15rem;
-        margin-left: 6rem;
-        font-size: 3.5rem;
-    }
-
-    #hero-text-container > p {
-        margin-left: 6rem;
-        font-size: 1.8rem;
-    }
-
-    #hero-img {
-        width: 26.125rem;
-        height: 26.125rem;
-    }
-}
-
-@media screen and (max-width: 1050px) {
-    #hero-text-container h1 {
-        padding-top: 10rem;
-        margin-left: 5rem;
-        font-size: 2.5rem;
-    }
-
-    #hero-text-container > p {
-        margin-left: 5rem;
-        font-size: 1.3rem;
-    }
-
-    #hero-img {
-        width: 23.125rem;
-        height: 23.125rem;
-
-    }
-}
-
-@media screen and (max-width: 850px) {
-    #hero-text-container h1 {
-        padding-top: 10rem;
-        margin-left: 4rem;
-        font-size: 2rem;
-    }
-
-    #hero-text-container > p {
-        margin-left: 4rem;
-        font-size: 1rem;
-    }
-
-    .navbar-flex-item {
-        margin: 6rem auto 0;
-        font-size: 1rem;
-    }
-
-    #hero-img {
-        position: absolute;
-        top: 17rem;
-        left: 50%;
-        margin-left: -11.0625rem;
-        border-radius: 50%;
-        width: 22.125rem;
-        height: 22.125rem;
-        z-index: 3;
-    }
-    
-    #scroll-to-explore {
-        top: 94%;
-    }
-
-    #scroll-to-explore > p {
-        font-size: .7rem;
-    }
-    
-    #scroll-to-explore > img {
-        margin-top: .2rem;
-        height: .7rem;
-    }
-
-    #projects h2 {
-        font-size: 3.5rem;
-    }
-
-    #contact h2 {
-        font-size: 3.5rem;
-    }
 }

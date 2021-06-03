@@ -337,6 +337,7 @@ footer p {
 
 /* Media queries */
 
+
 @media screen and (max-width: 1350px) {
     #hero-text-container h1 {
         padding-top: 15rem;
@@ -370,7 +371,6 @@ footer p {
     #hero-img {
         width: 23.125rem;
         height: 23.125rem;
-
     }
 }
 
@@ -395,31 +395,10 @@ footer p {
         position: absolute;
         top: 17rem;
         left: 50%;
-        margin-left: -11.0625rem;
+        right: 50%;
         border-radius: 50%;
         width: 22.125rem;
         height: 22.125rem;
-        z-index: 3;
     }
     
-    #scroll-to-explore {
-        top: 94%;
-    }
-
-    #scroll-to-explore > p {
-        font-size: .7rem;
-    }
-    
-    #scroll-to-explore > img {
-        margin-top: .2rem;
-        height: .7rem;
-    }
-
-    #projects h2 {
-        font-size: 3.5rem;
-    }
-
-    #contact h2 {
-        font-size: 3.5rem;
-    }
 }

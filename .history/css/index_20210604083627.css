@@ -337,6 +337,7 @@ footer p {
 
 /* Media queries */
 
+
 @media screen and (max-width: 1350px) {
     #hero-text-container h1 {
         padding-top: 15rem;
@@ -346,12 +347,22 @@ footer p {
 
     #hero-text-container > p {
         margin-left: 6rem;
-        font-size: 1.8rem;
+        font-size: 2rem;
     }
 
     #hero-img {
-        width: 26.125rem;
-        height: 26.125rem;
+        right: 0rem;
+        border-radius: 50%;
+        width: 23.125rem;
+        height: 23.125rem;
+        border: 20px solid #4477E3;
+        background: url(../img/6D5BF231-2A3E-4029-9EFE-9C82AF0D506F_1_105_c.jpeg);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        box-shadow: inset 0px 0px 10px 10px rgba(0, 0, 0, 0.5);
+        position: absolute;
+        z-index: 5;
     }
 }
 
@@ -364,13 +375,7 @@ footer p {
 
     #hero-text-container > p {
         margin-left: 5rem;
-        font-size: 1.3rem;
-    }
-
-    #hero-img {
-        width: 23.125rem;
-        height: 23.125rem;
-
+        font-size: 1.5rem;
     }
 }
 
@@ -389,37 +394,6 @@ footer p {
     .navbar-flex-item {
         margin: 6rem auto 0;
         font-size: 1rem;
-    }
-
-    #hero-img {
-        position: absolute;
-        top: 17rem;
-        left: 50%;
-        margin-left: -11.0625rem;
-        border-radius: 50%;
-        width: 22.125rem;
-        height: 22.125rem;
-        z-index: 3;
-    }
-    
-    #scroll-to-explore {
-        top: 94%;
-    }
-
-    #scroll-to-explore > p {
-        font-size: .7rem;
-    }
-    
-    #scroll-to-explore > img {
-        margin-top: .2rem;
-        height: .7rem;
-    }
-
-    #projects h2 {
-        font-size: 3.5rem;
-    }
-
-    #contact h2 {
-        font-size: 3.5rem;
+        color: red;
     }
 }
