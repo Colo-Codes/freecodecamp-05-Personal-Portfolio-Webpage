@@ -155,9 +155,9 @@ a:link {
 /* Projects */
 
 #projects {
-    max-width: 62.72rem;
-    margin: -145vh auto 0;
-    
+    max-width: 90rem;
+    margin: -145vh auto 3.375rem auto;
+
 }
 
 #project-card-flex-container {
@@ -170,7 +170,6 @@ a:link {
     font-size: 4.5rem;
     font-weight: 300;
     text-align: center;
-    margin-bottom: 3.375rem;
 }
 
 .project-card {

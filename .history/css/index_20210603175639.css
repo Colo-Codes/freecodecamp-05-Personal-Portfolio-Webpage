@@ -155,9 +155,8 @@ a:link {
 /* Projects */
 
 #projects {
-    max-width: 62.72rem;
-    margin: -145vh auto 0;
-    
+    max-width: 90rem;
+    margin: -140vh auto 0;
 }
 
 #project-card-flex-container {
@@ -170,24 +169,13 @@ a:link {
     font-size: 4.5rem;
     font-weight: 300;
     text-align: center;
-    margin-bottom: 3.375rem;
 }
 
 .project-card {
     display: block;
     width: 13.43rem;
     height: 15rem;
-    transition: .3s;
-
-}
-
-.project-card:hover {
-    background: #F3F3F3;
-    background-color: #F3F3F3;
-    box-shadow: 0px 10px 30px 3px rgba(0, 0, 0, 0.25);
-    border-radius: 5px;
-    transition: linear;
-    transition: .3s;
+    border: 1px dashed red;
 }
 
 .project-card-bg {
@@ -195,37 +183,16 @@ a:link {
     height: 10rem;
     background-color: #F3F3F3;
     border-radius: 5px;
-    position: relative;
-}
-
-.project-card-bg div {
-    margin-left: 1rem;
-}
-
-.project-tile {
-    position: relative;
-    top: -4rem;
-}
-
-.project-descr {
-    position: relative;
-    top: -4rem;
-    color: #7D7D7D;
 }
 
 .project-tile h3 {
     font-weight: 700;
     font-size: 9rem;
-    line-height: 1;
+    margin-top: -5rem;
+    margin-bottom: 0;
+    position: relative;
 }
 
-.project-tile h4 {
-    margin-top: -1rem;
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    line-height: 1.5;
-}
-
-.project-tile a {
+.project-tile a:link {
     color: #4477E3;
 }
