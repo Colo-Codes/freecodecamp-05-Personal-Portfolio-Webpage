@@ -63,14 +63,6 @@ a:link {
 
 }
 
-#navbar a:link, #navbar a:visited {
-    color: white;
-}
-
-#navbar a:hover, #navbar a:active, #navbar a:focus {
-    border-bottom: 1px dashed white;
-}
-
 /* Hero */
 
 #welcome-section {

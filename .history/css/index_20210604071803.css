@@ -63,14 +63,6 @@ a:link {
 
 }
 
-#navbar a:link, #navbar a:visited {
-    color: white;
-}
-
-#navbar a:hover, #navbar a:active, #navbar a:focus {
-    border-bottom: 1px dashed white;
-}
-
 /* Hero */
 
 #welcome-section {
@@ -174,8 +166,7 @@ a:link {
 
 #projects {
     max-width: 62.72rem;
-    margin: -100vh auto 0;
-    padding-top: 10rem;
+    margin: -110vh auto 0;    
 }
 
 #project-card-flex-container {

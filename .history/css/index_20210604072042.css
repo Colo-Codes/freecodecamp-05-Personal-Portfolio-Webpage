@@ -63,12 +63,9 @@ a:link {
 
 }
 
-#navbar a:link, #navbar a:visited {
+#navbar-flex-item a:link, #navbar-flex-item a:visited {
     color: white;
-}
 
-#navbar a:hover, #navbar a:active, #navbar a:focus {
-    border-bottom: 1px dashed white;
 }
 
 /* Hero */
