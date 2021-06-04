@@ -1,5 +1,8 @@
 # Live project
-This is where you can find this live project: << TODO >>
+This is where you can find this live project:
+* Live page: https://darthcolo.github.io/freecodecamp-05-Personal-Portfolio-Webpage
+* CodePen: https://codepen.io/Darthcolo/pen/vYxRJPR
+
 
 # Project
 Objective: Build a CodePen.io app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/zNBOYG.
